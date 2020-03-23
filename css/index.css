@@ -1,0 +1,61 @@
+header h1{
+    font-size: 25px;
+}
+
+header h2 {
+    font-weight: 400;
+    color: #888;
+}
+
+header form input{
+    width: 45%;
+    height: 40px;
+    border: 1px solid silver;
+    outline: none;
+    font-size: 16px;
+}
+header form button{
+    width: 25%;
+    height: 40px;
+    background: #2c92ff;
+    color: #fff;
+    box-shadow: 5px 3px 15px -6px black;
+    transition: all .5s;
+    cursor: pointer;
+    margin-left: 5px;outline: none;
+}
+header form button:hover{
+    background-color: #fff;
+    color: #2c92ff;
+}
+
+section .lis li {
+    color:#2c92ff;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #2c92ff;
+    padding-top: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+section .lis li:hover {
+    background-color:#2c92ff;
+    color: #fff;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width:767px){
+    header form input{
+        width: 100%;
+        display: block;
+    }
+    header form button{
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+}
