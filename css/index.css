@@ -34,7 +34,7 @@ section .lis li {
     width: 30px;
     height: 30px;
     border: 1px solid #2c92ff;
-    padding-top: 6px;
+    padding-top: 2px;
     border-radius: 50%;
     cursor: pointer;
     transition: all .5s;
@@ -55,7 +55,7 @@ section .lis li:hover {
     }
     header form button{
         width: 100%;
-        margin-right: 0px;
+        margin-left: 0px;
         margin-top: 15px;
     }
 }
